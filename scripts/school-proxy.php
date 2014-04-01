@@ -8,9 +8,13 @@
     $flickr_user_id = $_GET['flickr_user_id'];
     $gmail = $_GET['gmail'];
 
-    $feeds["home"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=7&format=raw';
-    $feeds["news"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=7&format=raw';
-
+    $feeds["home"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw';
+    $feeds["news"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw';
+    $feeds["campus"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=3&format=raw';   
+    $feeds["academic"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=4&format=raw';
+    $feeds["studentlife"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=7&format=raw'; 
+    $feeds["extracurricular"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=6&format=raw'; 
+    $feeds["sportsnews"]  = '/index.php?option=com_ninjarsssyndicator&feed_id=8&format=raw'; 
     
     $feeds['events'] = 'https://www.google.com/calendar/feeds/'.$gmail.'/public/full?orderby=starttime&sortorder=ascending&max-results=10&futureevents=true';
 

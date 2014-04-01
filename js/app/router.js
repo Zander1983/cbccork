@@ -26,7 +26,16 @@ define(function (require) {
             "": "getHome",
             "news": "getGeneric",
             "news-item/:id": "getGenericItem",
-     
+            "campus": "getGeneric",           
+            "campus-item/:id": "getGenericItem",
+            "academic": "getGeneric",           
+            "academic-item/:id": "getGenericItem",
+            "sportsnews": "getGeneric",           
+            "sportsnews-item/:id": "getGenericItem",
+            "studentlife": "getGeneric",           
+            "studentlife-item/:id": "getGenericItem",
+            "extracurricular": "getGeneric",           
+            "extracurricular-item/:id": "getGenericItem",
             
             /*****In Every Project**************/
             "contact": "getContact",
